@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54c8453ef359e76408c7dffc277b87b1, type: 3}
+  m_Name: Conquest
+  m_EditorClassIdentifier: 
+  tipo: 16
+  imagen: {fileID: 21300000, guid: e4b595478d72b8b4aa2052f5413eb15d, type: 3}
+  metrosCuadrados: "55.46m\xB2"
+  recamaras: "2 Rec\xE1maras"
+  banos: "1 Ba\xF1o Completo"
+  lavado: Zona de Lavado
+  balcones: 3 Balcones
+  cajonDeEstacionamiento: "1 Caj\xF3n de estacionamiento"
+  estudio: 
+  sala: 1
+  cocina: 1
+  comedor: 1

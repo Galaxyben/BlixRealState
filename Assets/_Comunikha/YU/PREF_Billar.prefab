@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &218732194583028611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 216357042244459467}
+  - component: {fileID: 250090953854861025}
+  - component: {fileID: 241996069816824997}
+  m_Layer: 0
+  m_Name: MSH_Billar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &216357042244459467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218732194583028611}
+  m_LocalRotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224942307129302651}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &250090953854861025
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218732194583028611}
+  m_Mesh: {fileID: 4300000, guid: 33ece2a13a373524b8c71fea02b60bca, type: 3}
+--- !u!23 &241996069816824997
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218732194583028611}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 529f7313d008624468765bbe5a067fe1, type: 2}
+  - {fileID: 2100000, guid: 9d96e76f1a520984e9ee8e10e901bc1f, type: 2}
+  - {fileID: 2100000, guid: 5347f5110505c9c48a3e83f16d98eed9, type: 2}
+  - {fileID: 2100000, guid: 62a63d85c26b514498ae2ea1b52c514a, type: 2}
+  - {fileID: 2100008, guid: 33ece2a13a373524b8c71fea02b60bca, type: 3}
+  - {fileID: 2100000, guid: 73f8a0fd2262ca647897e75abfeab577, type: 2}
+  - {fileID: 2100000, guid: 3462650e3257c75428bfd4493d1a5638, type: 2}
+  - {fileID: 2100000, guid: 4d33478f31f118d4480446d5495e7e61, type: 2}
+  - {fileID: 2100000, guid: 80f3149d8423b08468987f48784f2241, type: 2}
+  - {fileID: 2100000, guid: 658c8cc375ba1fe459a2cf95a876f12c, type: 2}
+  - {fileID: 2100000, guid: ea0c86156043f724f8b18402467c2193, type: 2}
+  - {fileID: 2100000, guid: 7bb3d449ab9b4564283223442154746e, type: 2}
+  - {fileID: 2100000, guid: 9febdfd6e49863645bad1983505f7573, type: 2}
+  - {fileID: 2100000, guid: d82dc0ba65f98ed4cbec3315c27a9a8b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &218848933726747829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224942307129302651}
+  m_Layer: 0
+  m_Name: PREF_Billar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &224942307129302651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218848933726747829}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.4148, y: 5.58981, z: -0.03615}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 216357042244459467}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

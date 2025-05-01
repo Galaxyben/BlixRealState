@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54c8453ef359e76408c7dffc277b87b1, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  tipo: 11
+  imagen: {fileID: 21300000, guid: e94a3bf2e27cc4c4695a8da5e13de142, type: 3}
+  metrosCuadrados: "59.66m\xB2"
+  recamaras: "2 Rec\xE1maras"
+  banos: "2 Ba\xF1os Completos"
+  lavado: Zona de lavado
+  balcones: 2 Balcones
+  cajonDeEstacionamiento: "1 Caj\xF3n de estacionamiento"
+  estudio: 
+  sala: 1
+  cocina: 1
+  comedor: 1

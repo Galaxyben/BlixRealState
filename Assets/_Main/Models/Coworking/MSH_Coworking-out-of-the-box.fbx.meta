@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: f9ac40e2e7a3eb04bbecc4145d72911c
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alacena_Arriba.002
+    second: {fileID: 2100000, guid: 7e2ef9c56ca28fc40a517b916d20350e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base_Mueble_Lavabo.001
+    second: {fileID: 2100000, guid: 9ba5f3c9fec368b4982958a52bea5e97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cromo.002
+    second: {fileID: 2100000, guid: e52efc6e4fd22704abf76decf4f17306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Granito_Cocina.002
+    second: {fileID: 2100000, guid: 09f7bfa3cecc6134088ae40ae7b48403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lavabo.001
+    second: {fileID: 2100000, guid: fd23d9e715fda044fab9d61225bb2ba3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Agua
+    second: {fileID: 2100000, guid: c337f83c0d2391a41b2a1d09995247b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Barandales-escalera
+    second: {fileID: 2100000, guid: c4b3f09edc7fbd94ba10098645f0e1d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Barra-inferior
+    second: {fileID: 2100000, guid: 514b0961c81fbc742b64545834787748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Barra-superior
+    second: {fileID: 2100000, guid: afa9ad4e60d34c541a7b2ffc71d20687, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Barras-madera
+    second: {fileID: 2100000, guid: 8a84cf6cc48aba74c81ae266f6090f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Borde-blanco-fachada
+    second: {fileID: 2100000, guid: 99da8c1a06fd99846a964f41fc392ded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cristal
+    second: {fileID: 2100000, guid: 77e9084f0223e984b94b99035903a7f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Escalones
+    second: {fileID: 2100000, guid: 81859373206da084b8250cd818728cd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Macetas
+    second: {fileID: 2100000, guid: 1bb9299489011db4998306441a5786e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Madera
+    second: {fileID: 2100000, guid: 939cbc04a02cc4540bf6473fdd3fb38c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Marco-ventana
+    second: {fileID: 2100000, guid: 54abedb19c397b646b9e8c0cfb4636c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Metal
+    second: {fileID: 2100000, guid: 657540e6727736743809c1124293464c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Muro-madera
+    second: {fileID: 2100000, guid: 8702bc56f2fa2214eb82b899aed0fba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Pasto
+    second: {fileID: 2100000, guid: 510f5707dc6268d4bb1859032fa47105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Piso-barra
+    second: {fileID: 2100000, guid: 930ec6cb77dd6184faec34d1781d411c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Piso-cocineta
+    second: {fileID: 2100000, guid: d8bb36260b795e6439fe8d23dc1ff44b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Piso-muebles
+    second: {fileID: 2100000, guid: 048cc8414b7a08945b3b73d0178e56e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Piso-salita
+    second: {fileID: 2100000, guid: 712a1ae367b8a0b499608428e34035d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Piso-sillitas
+    second: {fileID: 2100000, guid: d352b69763fe64a44a996274a9eb2f62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Puertas
+    second: {fileID: 2100000, guid: e8438e6968a2ed949883e48b71f2395e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tabla-madera
+    second: {fileID: 2100000, guid: dd72c919660744e45bb5b04c37e47d21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tierra
+    second: {fileID: 2100000, guid: d6b121124581ab049abac398d042a0b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaT_Piso-juntas-recreacion
+    second: {fileID: 2100000, guid: 97ab8d45e4033804e90924483e5295cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera.004
+    second: {fileID: 2100000, guid: 06e9aed9ed130fe45aea6b839856e36c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera.005
+    second: {fileID: 2100000, guid: 274302c7ae609344eb044bdd2b72f150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manija.001
+    second: {fileID: 2100000, guid: e4c8a5f1dd154464688142dd5e323a89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manija.002
+    second: {fileID: 2100000, guid: 7878d0f920b024f42a83d25bfbd151da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manija_Regadera.001
+    second: {fileID: 2100000, guid: 11760141e1d095c499c2e77e044e4777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manija_Regadera.002
+    second: {fileID: 2100000, guid: b187f10ae5cec784ba09e868ecd0d9fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tarja.002
+    second: {fileID: 2100000, guid: ad99da5191ce865468baa85488040771, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

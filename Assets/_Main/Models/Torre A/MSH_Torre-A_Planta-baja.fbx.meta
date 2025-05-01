@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 774bb44dc04154e40b8237a786af9e5a
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Borde-blanco-fachada
+    second: {fileID: 2100000, guid: 9c57fd2a84b85d741beccfb472efd896, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Borde-escaleras
+    second: {fileID: 2100000, guid: 61c1c14b5bc426944b890610df7f18ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cancel
+    second: {fileID: 2100000, guid: 12064864c9d1dcc41a9aa2ef5be70e92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Concreto
+    second: {fileID: 2100000, guid: f21a2c3c504202844919990e88ac9185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cristal
+    second: {fileID: 2100000, guid: bb29e42772f388443a58597082c88bd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cromo
+    second: {fileID: 2100000, guid: 58d8d1ec762c88a4baa9887ee104ab26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cuadritos
+    second: {fileID: 2100000, guid: ba7701bc322ca8a4483a3ac8831e48f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Escalones
+    second: {fileID: 2100000, guid: 41e1fbf1a50bac34fa8f673279e598d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Ladrillos
+    second: {fileID: 2100000, guid: 43e4e54a224d1284589255dbfe338763, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Ladrillos-grises-A
+    second: {fileID: 2100000, guid: c1a790d0fab397847a85e9de288cf247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Linea-negra
+    second: {fileID: 2100000, guid: 37b12e93b91dd7f42b332dfb48841ed5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Marco-ventana
+    second: {fileID: 2100000, guid: 37be4486153d983468a527126ece3233, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Marmol
+    second: {fileID: 2100000, guid: 59589abd498f55c42a2432fd58b37d26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Muro-blanco
+    second: {fileID: 2100000, guid: ffa3313cb2d839f4f96d036b0fc546bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Paneles-negros-fachada
+    second: {fileID: 2100000, guid: eede3ae6f3128234bb59567ac5799f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Puertas
+    second: {fileID: 2100000, guid: 070ac99338c486c4090ebe7fabf5d376, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Suelo
+    second: {fileID: 2100000, guid: 2c2e1a0819e9bc3408fe4e675f899621, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["MSH_Varas-lobby-A","MSH_Recepcion","MSH_Puertas-torre-A.004","MSH_Puertas-torre-A","MSH_Piso_1_2","MSH_Paneles-lobby-A","MSH_Muros_Lobby_T2.003","MSH_Muro_Cuadritos_A","MSH_Laundry-vestibulo","MSH_Barra-lobby-A","MSH_Barra-concreto-lobby-A","MSH_Asientos-cuadrados-lobbyA","MSH_Muros_Lobby","MSH_Coworking_Lobby-A"],"padding":[19,34,33,64,4,32,6,13,5,39,45,30,6,10],"unwrapper":[1,1,1,1,1,1,1,1,1,1,1,1,1,1]}'
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
