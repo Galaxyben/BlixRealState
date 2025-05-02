@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Comunikha/Scenes/SCN_YU.unity
+    path: Assets/_Comunikha/Scenes/SCN_YU_Isaac.unity
     guid: 3af233c59a55d114597e16676446a838
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
