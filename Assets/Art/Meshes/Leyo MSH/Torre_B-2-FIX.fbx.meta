@@ -10,7 +10,7 @@ ModelImporter:
       name: MAT_Ladrillos
     second: {fileID: 2100000, guid: fc3e0fb4e747f3a45af099d7d899c420, type: 2}
   materials:
-    materialImportMode: 2
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
