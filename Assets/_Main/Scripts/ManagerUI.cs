@@ -1,6 +1,8 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 using DG.Tweening;
+using Unity.Cinemachine;
 
 namespace _Main.Scripts
 {
@@ -19,15 +21,24 @@ namespace _Main.Scripts
         [Header("References")] 
         public Transform[] cameraTargets;
         public DepartmentIdentifier[] departmentBoxes;
+        public CinemachineCamera cmCamera;
+        public Material availableMat;
+        public Material soldMat;
+        public Material checkedMat;
 
         private GameObject filtersPanel, amenitiesPanel;
         private Vector3 ogFilterPos, ogAmenitiesPos;
         private bool isAmenitiesUp = false, isFiltersUp = false;
         private CanvasGroup loadingScreenCG;
+        private MeshRenderer[] departmentRenderers;
     
         private IEnumerator Start()
         {
             departmentBoxes = FindObjectsByType<DepartmentIdentifier>(FindObjectsSortMode.None);
+            departmentRenderers = departmentBoxes
+                .Select(b => b.GetComponent<MeshRenderer>())
+                .ToArray();
+            
             amenitiesPanel = viewAmenities.transform.GetChild(0).gameObject;
             filtersPanel = viewFilter.transform.GetChild(0).gameObject;
 
@@ -51,9 +62,14 @@ namespace _Main.Scripts
         public void ToggleAmenities()
         {
             if(!isAmenitiesUp)
+            {
                 amenitiesPanel.transform.DOMoveY(ogAmenitiesPos.y, 1f).SetEase(Ease.InOutSine);
+            }
             else
+            {
                 amenitiesPanel.transform.DOMoveY(-200f, 1f).SetEase(Ease.InOutSine);
+                ChangeCameraTarget(0);
+            }
 
             isAmenitiesUp = !isAmenitiesUp;
         }
@@ -74,9 +90,52 @@ namespace _Main.Scripts
             isFiltersUp = !isFiltersUp;
         }
 
+        public void ChangeCameraTarget(int value)
+        {
+            cmCamera.Target.TrackingTarget = cameraTargets[value];
+            cmCamera.GetComponent<CinemachineOrbitalFollow>().Radius = value == 0 ? 60f : 10f;
+        }
+
         public void SpawnDepartment()
         {
             Instantiate(departmentCard, viewCardPlayground);
+        }
+
+        public void RandomDepartments()
+        {
+            foreach (var box in departmentBoxes)
+            {
+                box.gameObject.SetActive(Random.Range(0, 5) < 2);
+            }
+        }
+
+        public void TurnOnSide(bool north)
+        {
+            foreach (var box in departmentBoxes)
+            {
+                if (north)
+                    box.gameObject.SetActive(box.transform.parent.name == "NORTH");
+                else
+                    box.gameObject.SetActive(box.transform.parent.name == "SOUTH");
+            }
+        }
+
+        public void TurnAvailability(int value)
+        {
+            for (int i = 0; i < departmentBoxes.Length; i++)
+            {
+                var box       = departmentBoxes[i];
+                var rend  = departmentRenderers[i];
+                var mat       = rend.sharedMaterial;    // use sharedMaterial for direct asset comparison
+                bool isActive = value switch
+                {
+                    0 => mat == availableMat,
+                    1 => mat == checkedMat,
+                    2 => mat == soldMat,
+                    _ => true
+                };
+                box.gameObject.SetActive(isActive);
+            }
         }
 
         private void CleanCardPlayground()

@@ -6,6 +6,16 @@ namespace _Main.Scripts
 {
     public class ManagerInputs : MonoBehaviour
     {
+        [Header("Camera & Zoom Settings")]
+        [Tooltip("Your Cinemachine Virtual Camera for zoom adjustments.")]
+        [SerializeField] private CinemachineCamera virtualCamera;
+        [Tooltip("Speed multiplier for scroll-wheel zoom.")]
+        [SerializeField] private float scrollZoomSpeed = 10f;
+        [Tooltip("Speed multiplier for pinch zoom.")]
+        [SerializeField] private float pinchZoomSpeed  = 0.1f;
+        [Tooltip("Min (x) and Max (y) Field-of-View values.")]
+        [SerializeField] private Vector2 fovLimits     = new Vector2(15f, 60f);
+
         [Header("References")]
         [SerializeField] private Camera mainCamera;
         [SerializeField] private CinemachineInputAxisController RotationInputProvider;
@@ -24,31 +34,36 @@ namespace _Main.Scripts
         private float pressStartTime;
         private int? currentPointerId;
 
+        // pinch state
+        private float previousPinchDistance;
+
         private void Awake()
         {
             if (mainCamera == null)
                 mainCamera = Camera.main;
+
+            // auto-find the virtual camera if not set
+            if (virtualCamera == null && RotationInputProvider != null)
+                virtualCamera = RotationInputProvider.GetComponentInParent<CinemachineCamera>();
         }
 
         private void Update()
         {
-    #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
+#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
             HandleMouse();
-    #endif
+#endif
             HandleTouch();
+            HandleZoom();
         }
 
         private void HandleMouse()
         {
-            // press down
             if (Input.GetMouseButtonDown(0))
                 BeginPress(Input.mousePosition, null);
 
-            // hold
             if (isPressing && Input.GetMouseButton(0))
                 ContinuePress(Input.mousePosition);
 
-            // release
             if (isPressing && Input.GetMouseButtonUp(0))
                 EndPress(Input.mousePosition);
         }
@@ -84,7 +99,6 @@ namespace _Main.Scripts
             pressStartTime  = Time.time;
             currentPointerId = pointerId;
 
-            // check if the press started over UI
             if (EventSystem.current != null)
             {
                 pressOverUI = pointerId.HasValue
@@ -96,16 +110,11 @@ namespace _Main.Scripts
                 pressOverUI = false;
             }
 
-            // disable camera rotation until we decide it's a drag
             RotationInputProvider.enabled = false;
         }
 
         private void ContinuePress(Vector2 pos)
         {
-            // only enable drag-rotation if:
-            //  • not already rotating
-            //  • NOT over UI
-            //  • movement exceeds threshold
             if (!rotationEnabled
                 && !pressOverUI
                 && Vector2.Distance(pos, pressStartPos) > maxTapMovement)
@@ -120,7 +129,6 @@ namespace _Main.Scripts
             float duration = Time.time - pressStartTime;
             float distance = Vector2.Distance(pos, pressStartPos);
 
-            // only raycast on a quick tap, and only if NOT over UI
             if (!pressOverUI
                 && !rotationEnabled
                 && duration <= maxTapTime
@@ -129,11 +137,11 @@ namespace _Main.Scripts
                 CheckHit(pos);
             }
 
-            // reset state
-            isPressing       = false;
-            rotationEnabled  = false;
+            // reset
+            isPressing      = false;
+            rotationEnabled = false;
             currentPointerId = null;
-            pressOverUI      = false;
+            pressOverUI     = false;
             RotationInputProvider.enabled = false;
         }
 
@@ -150,6 +158,41 @@ namespace _Main.Scripts
                     ManagerUI.Instance.SpawnDepartment();
                 }
             }
+        }
+
+        private void HandleZoom()
+        {
+            // 1) Mouse scroll
+#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
+            float scroll = Input.mouseScrollDelta.y;
+            if (Mathf.Abs(scroll) > 0f && virtualCamera != null)
+                ApplyZoom(scroll * scrollZoomSpeed);
+#endif
+
+            // 2) Two-finger pinch
+            if (Input.touchCount == 2 && virtualCamera != null)
+            {
+                Touch t0 = Input.GetTouch(0), t1 = Input.GetTouch(1);
+                float currentDist = Vector2.Distance(t0.position, t1.position);
+
+                if (t0.phase == TouchPhase.Began || t1.phase == TouchPhase.Began)
+                {
+                    previousPinchDistance = currentDist;
+                }
+                else
+                {
+                    float delta = currentDist - previousPinchDistance;
+                    ApplyZoom(delta * pinchZoomSpeed);
+                    previousPinchDistance = currentDist;
+                }
+            }
+        }
+
+        private void ApplyZoom(float deltaFov)
+        {
+            var lens = virtualCamera.Lens;
+            lens.FieldOfView = Mathf.Clamp(lens.FieldOfView - deltaFov, fovLimits.x, fovLimits.y);
+            virtualCamera.Lens = lens;
         }
     }
 }
