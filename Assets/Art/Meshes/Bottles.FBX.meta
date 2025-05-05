@@ -1,105 +1,264 @@
 fileFormatVersion: 2
 guid: 31bfe9c796d554b45a3c00e13836bf1d
-timeCreated: 1495894599
-licenseType: Store
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: Bottle
-    100002: Bottle 1
-    100004: Bottle 10
-    100006: Bottle 11
-    100008: Bottle 12
-    100010: Bottle 13
-    100012: Bottle 14
-    100014: Bottle 2
-    100016: Bottle 3
-    100018: Bottle 4
-    100020: Bottle 5
-    100022: Bottle 6
-    100024: Bottle 7
-    100026: Bottle 8
-    100028: Bottle 9
-    100030: //RootNode
-    400000: Bottle
-    400002: Bottle 1
-    400004: Bottle 10
-    400006: Bottle 11
-    400008: Bottle 12
-    400010: Bottle 13
-    400012: Bottle 14
-    400014: Bottle 2
-    400016: Bottle 3
-    400018: Bottle 4
-    400020: Bottle 5
-    400022: Bottle 6
-    400024: Bottle 7
-    400026: Bottle 8
-    400028: Bottle 9
-    400030: //RootNode
-    2300000: Bottle
-    2300002: Bottle 1
-    2300004: Bottle 10
-    2300006: Bottle 11
-    2300008: Bottle 12
-    2300010: Bottle 13
-    2300012: Bottle 14
-    2300014: Bottle 2
-    2300016: Bottle 3
-    2300018: Bottle 4
-    2300020: Bottle 5
-    2300022: Bottle 6
-    2300024: Bottle 7
-    2300026: Bottle 8
-    2300028: Bottle 9
-    3300000: Bottle
-    3300002: Bottle 1
-    3300004: Bottle 10
-    3300006: Bottle 11
-    3300008: Bottle 12
-    3300010: Bottle 13
-    3300012: Bottle 14
-    3300014: Bottle 2
-    3300016: Bottle 3
-    3300018: Bottle 4
-    3300020: Bottle 5
-    3300022: Bottle 6
-    3300024: Bottle 7
-    3300026: Bottle 8
-    3300028: Bottle 9
-    4300000: Bottle
-    4300002: Bottle
-    4300004: Bottle
-    4300006: Bottle
-    4300008: Bottle
-    4300010: Bottle
-    4300012: Bottle
-    4300014: Bottle
-    4300016: Bottle
-    4300018: Bottle
-    4300020: Bottle
-    4300022: Bottle
-    4300024: Bottle
-    4300026: Bottle
-    4300028: Bottle
-    7400000: Take 001
-    9500000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bottle
+  - first:
+      1: 100002
+    second: Bottle 1
+  - first:
+      1: 100004
+    second: Bottle 10
+  - first:
+      1: 100006
+    second: Bottle 11
+  - first:
+      1: 100008
+    second: Bottle 12
+  - first:
+      1: 100010
+    second: Bottle 13
+  - first:
+      1: 100012
+    second: Bottle 14
+  - first:
+      1: 100014
+    second: Bottle 2
+  - first:
+      1: 100016
+    second: Bottle 3
+  - first:
+      1: 100018
+    second: Bottle 4
+  - first:
+      1: 100020
+    second: Bottle 5
+  - first:
+      1: 100022
+    second: Bottle 6
+  - first:
+      1: 100024
+    second: Bottle 7
+  - first:
+      1: 100026
+    second: Bottle 8
+  - first:
+      1: 100028
+    second: Bottle 9
+  - first:
+      1: 100030
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Bottle
+  - first:
+      4: 400002
+    second: Bottle 1
+  - first:
+      4: 400004
+    second: Bottle 10
+  - first:
+      4: 400006
+    second: Bottle 11
+  - first:
+      4: 400008
+    second: Bottle 12
+  - first:
+      4: 400010
+    second: Bottle 13
+  - first:
+      4: 400012
+    second: Bottle 14
+  - first:
+      4: 400014
+    second: Bottle 2
+  - first:
+      4: 400016
+    second: Bottle 3
+  - first:
+      4: 400018
+    second: Bottle 4
+  - first:
+      4: 400020
+    second: Bottle 5
+  - first:
+      4: 400022
+    second: Bottle 6
+  - first:
+      4: 400024
+    second: Bottle 7
+  - first:
+      4: 400026
+    second: Bottle 8
+  - first:
+      4: 400028
+    second: Bottle 9
+  - first:
+      4: 400030
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: Bottle
+  - first:
+      23: 2300002
+    second: Bottle 1
+  - first:
+      23: 2300004
+    second: Bottle 10
+  - first:
+      23: 2300006
+    second: Bottle 11
+  - first:
+      23: 2300008
+    second: Bottle 12
+  - first:
+      23: 2300010
+    second: Bottle 13
+  - first:
+      23: 2300012
+    second: Bottle 14
+  - first:
+      23: 2300014
+    second: Bottle 2
+  - first:
+      23: 2300016
+    second: Bottle 3
+  - first:
+      23: 2300018
+    second: Bottle 4
+  - first:
+      23: 2300020
+    second: Bottle 5
+  - first:
+      23: 2300022
+    second: Bottle 6
+  - first:
+      23: 2300024
+    second: Bottle 7
+  - first:
+      23: 2300026
+    second: Bottle 8
+  - first:
+      23: 2300028
+    second: Bottle 9
+  - first:
+      33: 3300000
+    second: Bottle
+  - first:
+      33: 3300002
+    second: Bottle 1
+  - first:
+      33: 3300004
+    second: Bottle 10
+  - first:
+      33: 3300006
+    second: Bottle 11
+  - first:
+      33: 3300008
+    second: Bottle 12
+  - first:
+      33: 3300010
+    second: Bottle 13
+  - first:
+      33: 3300012
+    second: Bottle 14
+  - first:
+      33: 3300014
+    second: Bottle 2
+  - first:
+      33: 3300016
+    second: Bottle 3
+  - first:
+      33: 3300018
+    second: Bottle 4
+  - first:
+      33: 3300020
+    second: Bottle 5
+  - first:
+      33: 3300022
+    second: Bottle 6
+  - first:
+      33: 3300024
+    second: Bottle 7
+  - first:
+      33: 3300026
+    second: Bottle 8
+  - first:
+      33: 3300028
+    second: Bottle 9
+  - first:
+      43: 4300000
+    second: Bottle
+  - first:
+      43: 4300002
+    second: Bottle
+  - first:
+      43: 4300004
+    second: Bottle
+  - first:
+      43: 4300006
+    second: Bottle
+  - first:
+      43: 4300008
+    second: Bottle
+  - first:
+      43: 4300010
+    second: Bottle
+  - first:
+      43: 4300012
+    second: Bottle
+  - first:
+      43: 4300014
+    second: Bottle
+  - first:
+      43: 4300016
+    second: Bottle
+  - first:
+      43: 4300018
+    second: Bottle
+  - first:
+      43: 4300020
+    second: Bottle
+  - first:
+      43: 4300022
+    second: Bottle
+  - first:
+      43: 4300024
+    second: Bottle
+  - first:
+      43: 4300026
+    second: Bottle
+  - first:
+      43: 4300028
+    second: Bottle
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -114,30 +273,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -147,14 +325,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

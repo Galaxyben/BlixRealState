@@ -1,116 +1,297 @@
 fileFormatVersion: 2
 guid: 65329deebdd9180478e1b78153b55fc3
-timeCreated: 1468017540
-licenseType: Store
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: Box060
-    100002: Box061
-    100004: Box062
-    100006: Group_008
-    100008: //RootNode
-    100010: Object033
-    100012: Object034
-    100014: Object035
-    100016: Object036
-    100018: Object037
-    100020: Object039
-    100022: Object041
-    100024: Group_009
-    100026: Object045
-    100028: Object047
-    100030: Object055
-    100032: Lantern
-    100034: Lantern_Glass
-    400000: Box060
-    400002: Box061
-    400004: Box062
-    400006: Group_008
-    400008: //RootNode
-    400010: Object033
-    400012: Object034
-    400014: Object035
-    400016: Object036
-    400018: Object037
-    400020: Object039
-    400022: Object041
-    400024: Group_009
-    400026: Object045
-    400028: Object047
-    400030: Object055
-    400032: Lantern
-    400034: Lantern_Glass
-    2300000: Box060
-    2300002: Box061
-    2300004: Box062
-    2300006: Group_008
-    2300008: Object033
-    2300010: Object034
-    2300012: Object035
-    2300014: Object036
-    2300016: Object037
-    2300018: Object039
-    2300020: Object041
-    2300022: Group_009
-    2300024: Object045
-    2300026: Object047
-    2300028: //RootNode
-    2300030: Object055
-    2300032: Lantern
-    2300034: Lantern_Glass
-    3300000: Box060
-    3300002: Box061
-    3300004: Box062
-    3300006: Group_008
-    3300008: Object033
-    3300010: Object034
-    3300012: Object035
-    3300014: Object036
-    3300016: Object037
-    3300018: Object039
-    3300020: Object041
-    3300022: Group_009
-    3300024: Object045
-    3300026: Object047
-    3300028: //RootNode
-    3300030: Object055
-    3300032: Lantern
-    3300034: Lantern_Glass
-    4300000: Group_008
-    4300002: Object033
-    4300004: Box060
-    4300006: Box061
-    4300008: Box062
-    4300010: Object034
-    4300012: Object035
-    4300014: Object036
-    4300016: Object037
-    4300018: Object039
-    4300020: Object041
-    4300022: Group_009
-    4300024: Object045
-    4300026: Object047
-    4300028: Object055
-    4300030: Lantern
-    4300032: Lantern_Glass
-    9500000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Box060
+  - first:
+      1: 100002
+    second: Box061
+  - first:
+      1: 100004
+    second: Box062
+  - first:
+      1: 100006
+    second: Group_008
+  - first:
+      1: 100008
+    second: //RootNode
+  - first:
+      1: 100010
+    second: Object033
+  - first:
+      1: 100012
+    second: Object034
+  - first:
+      1: 100014
+    second: Object035
+  - first:
+      1: 100016
+    second: Object036
+  - first:
+      1: 100018
+    second: Object037
+  - first:
+      1: 100020
+    second: Object039
+  - first:
+      1: 100022
+    second: Object041
+  - first:
+      1: 100024
+    second: Group_009
+  - first:
+      1: 100026
+    second: Object045
+  - first:
+      1: 100028
+    second: Object047
+  - first:
+      1: 100030
+    second: Object055
+  - first:
+      1: 100032
+    second: Lantern
+  - first:
+      1: 100034
+    second: Lantern_Glass
+  - first:
+      4: 400000
+    second: Box060
+  - first:
+      4: 400002
+    second: Box061
+  - first:
+      4: 400004
+    second: Box062
+  - first:
+      4: 400006
+    second: Group_008
+  - first:
+      4: 400008
+    second: //RootNode
+  - first:
+      4: 400010
+    second: Object033
+  - first:
+      4: 400012
+    second: Object034
+  - first:
+      4: 400014
+    second: Object035
+  - first:
+      4: 400016
+    second: Object036
+  - first:
+      4: 400018
+    second: Object037
+  - first:
+      4: 400020
+    second: Object039
+  - first:
+      4: 400022
+    second: Object041
+  - first:
+      4: 400024
+    second: Group_009
+  - first:
+      4: 400026
+    second: Object045
+  - first:
+      4: 400028
+    second: Object047
+  - first:
+      4: 400030
+    second: Object055
+  - first:
+      4: 400032
+    second: Lantern
+  - first:
+      4: 400034
+    second: Lantern_Glass
+  - first:
+      23: 2300000
+    second: Box060
+  - first:
+      23: 2300002
+    second: Box061
+  - first:
+      23: 2300004
+    second: Box062
+  - first:
+      23: 2300006
+    second: Group_008
+  - first:
+      23: 2300008
+    second: Object033
+  - first:
+      23: 2300010
+    second: Object034
+  - first:
+      23: 2300012
+    second: Object035
+  - first:
+      23: 2300014
+    second: Object036
+  - first:
+      23: 2300016
+    second: Object037
+  - first:
+      23: 2300018
+    second: Object039
+  - first:
+      23: 2300020
+    second: Object041
+  - first:
+      23: 2300022
+    second: Group_009
+  - first:
+      23: 2300024
+    second: Object045
+  - first:
+      23: 2300026
+    second: Object047
+  - first:
+      23: 2300028
+    second: //RootNode
+  - first:
+      23: 2300030
+    second: Object055
+  - first:
+      23: 2300032
+    second: Lantern
+  - first:
+      23: 2300034
+    second: Lantern_Glass
+  - first:
+      33: 3300000
+    second: Box060
+  - first:
+      33: 3300002
+    second: Box061
+  - first:
+      33: 3300004
+    second: Box062
+  - first:
+      33: 3300006
+    second: Group_008
+  - first:
+      33: 3300008
+    second: Object033
+  - first:
+      33: 3300010
+    second: Object034
+  - first:
+      33: 3300012
+    second: Object035
+  - first:
+      33: 3300014
+    second: Object036
+  - first:
+      33: 3300016
+    second: Object037
+  - first:
+      33: 3300018
+    second: Object039
+  - first:
+      33: 3300020
+    second: Object041
+  - first:
+      33: 3300022
+    second: Group_009
+  - first:
+      33: 3300024
+    second: Object045
+  - first:
+      33: 3300026
+    second: Object047
+  - first:
+      33: 3300028
+    second: //RootNode
+  - first:
+      33: 3300030
+    second: Object055
+  - first:
+      33: 3300032
+    second: Lantern
+  - first:
+      33: 3300034
+    second: Lantern_Glass
+  - first:
+      43: 4300000
+    second: Group_008
+  - first:
+      43: 4300002
+    second: Object033
+  - first:
+      43: 4300004
+    second: Box060
+  - first:
+      43: 4300006
+    second: Box061
+  - first:
+      43: 4300008
+    second: Box062
+  - first:
+      43: 4300010
+    second: Object034
+  - first:
+      43: 4300012
+    second: Object035
+  - first:
+      43: 4300014
+    second: Object036
+  - first:
+      43: 4300016
+    second: Object037
+  - first:
+      43: 4300018
+    second: Object039
+  - first:
+      43: 4300020
+    second: Object041
+  - first:
+      43: 4300022
+    second: Group_009
+  - first:
+      43: 4300024
+    second: Object045
+  - first:
+      43: 4300026
+    second: Object047
+  - first:
+      43: 4300028
+    second: Object055
+  - first:
+      43: 4300030
+    second: Lantern
+  - first:
+      43: 4300032
+    second: Lantern_Glass
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -125,30 +306,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -158,14 +358,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

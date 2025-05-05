@@ -1,100 +1,272 @@
 fileFormatVersion: 2
 guid: 719740ac2e760d2498976b9fab674ce4
-timeCreated: 1519111981
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: ChamferBox001
-    100002: ChamferBox001_BBox
-    100004: ChamferBox010
-    100006: ChamferBox010_BBox
-    100008: ChamferBox014
-    100010: ChamferBox014_BBox
-    100012: ChamferBox019
-    100014: ChamferBox019_BBox
-    100016: ChamferBox025
-    100018: ChamferBox025_BBox
-    100020: ChamferBox033
-    100022: ChamferBox033_BBox
-    100024: ChamferBox043
-    100026: ChamferBox043_BBox
-    100028: //RootNode
-    100030: Kallax_1x1
-    100032: Kallax_1x4
-    100034: Kallax_2x1
-    100036: Kallax_2x2
-    100038: Kallax_2x4
-    100040: Kallax_4x4
-    100042: Kallax_5x5
-    400000: ChamferBox001
-    400002: ChamferBox001_BBox
-    400004: ChamferBox010
-    400006: ChamferBox010_BBox
-    400008: ChamferBox014
-    400010: ChamferBox014_BBox
-    400012: ChamferBox019
-    400014: ChamferBox019_BBox
-    400016: ChamferBox025
-    400018: ChamferBox025_BBox
-    400020: ChamferBox033
-    400022: ChamferBox033_BBox
-    400024: ChamferBox043
-    400026: ChamferBox043_BBox
-    400028: //RootNode
-    400030: Kallax_1x1
-    400032: Kallax_1x4
-    400034: Kallax_2x1
-    400036: Kallax_2x2
-    400038: Kallax_2x4
-    400040: Kallax_4x4
-    400042: Kallax_5x5
-    2100000: 01 - Default
-    2300000: ChamferBox001_BBox
-    2300002: ChamferBox010_BBox
-    2300004: ChamferBox014_BBox
-    2300006: ChamferBox019_BBox
-    2300008: ChamferBox025_BBox
-    2300010: ChamferBox033_BBox
-    2300012: ChamferBox043_BBox
-    2300014: Kallax_1x1
-    2300016: Kallax_1x4
-    2300018: Kallax_2x1
-    2300020: Kallax_2x2
-    2300022: Kallax_2x4
-    2300024: Kallax_4x4
-    2300026: Kallax_5x5
-    3300000: ChamferBox001_BBox
-    3300002: ChamferBox010_BBox
-    3300004: ChamferBox014_BBox
-    3300006: ChamferBox019_BBox
-    3300008: ChamferBox025_BBox
-    3300010: ChamferBox033_BBox
-    3300012: ChamferBox043_BBox
-    3300014: Kallax_1x1
-    3300016: Kallax_1x4
-    3300018: Kallax_2x1
-    3300020: Kallax_2x2
-    3300022: Kallax_2x4
-    3300024: Kallax_4x4
-    3300026: Kallax_5x5
-    4300000: ChamferBox033_BBox
-    4300002: ChamferBox001_BBox
-    4300004: ChamferBox010_BBox
-    4300006: ChamferBox014_BBox
-    4300008: ChamferBox019_BBox
-    4300010: ChamferBox025_BBox
-    4300012: ChamferBox043_BBox
-    4300014: Kallax_2x1
-    4300016: Kallax_1x1
-    4300018: Kallax_1x4
-    4300020: Kallax_2x4
-    4300022: Kallax_5x5
-    4300024: Kallax_4x4
-    4300026: Kallax_2x2
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: ChamferBox001
+  - first:
+      1: 100002
+    second: ChamferBox001_BBox
+  - first:
+      1: 100004
+    second: ChamferBox010
+  - first:
+      1: 100006
+    second: ChamferBox010_BBox
+  - first:
+      1: 100008
+    second: ChamferBox014
+  - first:
+      1: 100010
+    second: ChamferBox014_BBox
+  - first:
+      1: 100012
+    second: ChamferBox019
+  - first:
+      1: 100014
+    second: ChamferBox019_BBox
+  - first:
+      1: 100016
+    second: ChamferBox025
+  - first:
+      1: 100018
+    second: ChamferBox025_BBox
+  - first:
+      1: 100020
+    second: ChamferBox033
+  - first:
+      1: 100022
+    second: ChamferBox033_BBox
+  - first:
+      1: 100024
+    second: ChamferBox043
+  - first:
+      1: 100026
+    second: ChamferBox043_BBox
+  - first:
+      1: 100028
+    second: //RootNode
+  - first:
+      1: 100030
+    second: Kallax_1x1
+  - first:
+      1: 100032
+    second: Kallax_1x4
+  - first:
+      1: 100034
+    second: Kallax_2x1
+  - first:
+      1: 100036
+    second: Kallax_2x2
+  - first:
+      1: 100038
+    second: Kallax_2x4
+  - first:
+      1: 100040
+    second: Kallax_4x4
+  - first:
+      1: 100042
+    second: Kallax_5x5
+  - first:
+      4: 400000
+    second: ChamferBox001
+  - first:
+      4: 400002
+    second: ChamferBox001_BBox
+  - first:
+      4: 400004
+    second: ChamferBox010
+  - first:
+      4: 400006
+    second: ChamferBox010_BBox
+  - first:
+      4: 400008
+    second: ChamferBox014
+  - first:
+      4: 400010
+    second: ChamferBox014_BBox
+  - first:
+      4: 400012
+    second: ChamferBox019
+  - first:
+      4: 400014
+    second: ChamferBox019_BBox
+  - first:
+      4: 400016
+    second: ChamferBox025
+  - first:
+      4: 400018
+    second: ChamferBox025_BBox
+  - first:
+      4: 400020
+    second: ChamferBox033
+  - first:
+      4: 400022
+    second: ChamferBox033_BBox
+  - first:
+      4: 400024
+    second: ChamferBox043
+  - first:
+      4: 400026
+    second: ChamferBox043_BBox
+  - first:
+      4: 400028
+    second: //RootNode
+  - first:
+      4: 400030
+    second: Kallax_1x1
+  - first:
+      4: 400032
+    second: Kallax_1x4
+  - first:
+      4: 400034
+    second: Kallax_2x1
+  - first:
+      4: 400036
+    second: Kallax_2x2
+  - first:
+      4: 400038
+    second: Kallax_2x4
+  - first:
+      4: 400040
+    second: Kallax_4x4
+  - first:
+      4: 400042
+    second: Kallax_5x5
+  - first:
+      21: 2100000
+    second: 01 - Default
+  - first:
+      23: 2300000
+    second: ChamferBox001_BBox
+  - first:
+      23: 2300002
+    second: ChamferBox010_BBox
+  - first:
+      23: 2300004
+    second: ChamferBox014_BBox
+  - first:
+      23: 2300006
+    second: ChamferBox019_BBox
+  - first:
+      23: 2300008
+    second: ChamferBox025_BBox
+  - first:
+      23: 2300010
+    second: ChamferBox033_BBox
+  - first:
+      23: 2300012
+    second: ChamferBox043_BBox
+  - first:
+      23: 2300014
+    second: Kallax_1x1
+  - first:
+      23: 2300016
+    second: Kallax_1x4
+  - first:
+      23: 2300018
+    second: Kallax_2x1
+  - first:
+      23: 2300020
+    second: Kallax_2x2
+  - first:
+      23: 2300022
+    second: Kallax_2x4
+  - first:
+      23: 2300024
+    second: Kallax_4x4
+  - first:
+      23: 2300026
+    second: Kallax_5x5
+  - first:
+      33: 3300000
+    second: ChamferBox001_BBox
+  - first:
+      33: 3300002
+    second: ChamferBox010_BBox
+  - first:
+      33: 3300004
+    second: ChamferBox014_BBox
+  - first:
+      33: 3300006
+    second: ChamferBox019_BBox
+  - first:
+      33: 3300008
+    second: ChamferBox025_BBox
+  - first:
+      33: 3300010
+    second: ChamferBox033_BBox
+  - first:
+      33: 3300012
+    second: ChamferBox043_BBox
+  - first:
+      33: 3300014
+    second: Kallax_1x1
+  - first:
+      33: 3300016
+    second: Kallax_1x4
+  - first:
+      33: 3300018
+    second: Kallax_2x1
+  - first:
+      33: 3300020
+    second: Kallax_2x2
+  - first:
+      33: 3300022
+    second: Kallax_2x4
+  - first:
+      33: 3300024
+    second: Kallax_4x4
+  - first:
+      33: 3300026
+    second: Kallax_5x5
+  - first:
+      43: 4300000
+    second: ChamferBox033_BBox
+  - first:
+      43: 4300002
+    second: ChamferBox001_BBox
+  - first:
+      43: 4300004
+    second: ChamferBox010_BBox
+  - first:
+      43: 4300006
+    second: ChamferBox014_BBox
+  - first:
+      43: 4300008
+    second: ChamferBox019_BBox
+  - first:
+      43: 4300010
+    second: ChamferBox025_BBox
+  - first:
+      43: 4300012
+    second: ChamferBox043_BBox
+  - first:
+      43: 4300014
+    second: Kallax_2x1
+  - first:
+      43: 4300016
+    second: Kallax_1x1
+  - first:
+      43: 4300018
+    second: Kallax_1x4
+  - first:
+      43: 4300020
+    second: Kallax_2x4
+  - first:
+      43: 4300022
+    second: Kallax_5x5
+  - first:
+      43: 4300024
+    second: Kallax_4x4
+  - first:
+      43: 4300026
+    second: Kallax_2x2
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -103,14 +275,14 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -125,32 +297,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -160,14 +349,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
